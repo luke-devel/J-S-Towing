@@ -106,7 +106,7 @@ export default function Home() {
       <main role="main">
         <section class="jumbotron text-center" style={{ paddingTop: "20px" }}>
           <div class="container">
-            <h1 padding>J&S Towing and Recovery</h1>
+            <h1 padding>J&S Towing and Recovery San Marcos, TX</h1>
             <TruckImage></TruckImage>
             <h1 style={{ fontSize: "25px" }}>
               Towing Service and Recovery company located in the San Marcos and
