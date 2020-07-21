@@ -38,7 +38,7 @@ export default function Home() {
             <div class="row">
               <div class="col-sm-8 col-md-7 py-4">
                 <h4 class="text-white">About</h4>
-                <p class="text-muted">
+                <p class="text-white">
                   Towing Service and Recovery company located in the San Marcos
                   and surrounding area. We specialize in vehicle lock outs, jump
                   starts, winching, and towing on medium duty as well.
@@ -104,28 +104,37 @@ export default function Home() {
       </header>
 
       <main role="main">
-        <section class="jumbotron text-center" style={{ paddingTop: "20px" }}>
+        <section
+          class="jumbotron text-center"
+          style={{ paddingTop: "20px", backgroundColor: "#2B2B2B" }}
+        >
           <div class="container">
-            <h1 padding>J&S Towing and Recovery San Marcos, TX</h1>
+            <h1 padding style={{ fontSize: "40px", color: "white" }}>
+              J&S Towing and Recovery San Marcos, TX
+            </h1>
             <TruckImage></TruckImage>
-            <h1 style={{ fontSize: "25px" }}>
+            <h1 style={{ fontSize: "25px", color: "white" }}>
               Towing Service and Recovery company located in the San Marcos and
               surrounding area. We specialize in vehicle lock outs, jump starts,
               winching, and towing on medium duty as well.
             </h1>
 
-            <h1 style={{ fontSize: "25px", paddingTop: "10px" }}>
+            <h1
+              style={{ fontSize: "25px", paddingTop: "10px", color: "white" }}
+            >
               Contact by Email or Phone:
             </h1>
-            <h1 style={{ fontSize: "25px", paddingTop: "10px" }}>
+            <h1
+              style={{ fontSize: "25px", paddingTop: "10px", color: "white" }}
+            >
               Email: jefferywwebb@yahoo.com
             </h1>
-            <h1 style={{ fontSize: "20px" }}>
-              <a href="mailto:jefferywwebb@yahoo.com" class="text-white">
-                (Click to Email)
-              </a>
+            <h1 style={{ fontSize: "20px", color: "white" }}>
+              <a href="mailto:jefferywwebb@yahoo.com">(Click to Email)</a>
             </h1>
-            <h1 style={{ fontSize: "25px", paddingTop: "10px" }}>
+            <h1
+              style={{ fontSize: "25px", paddingTop: "10px", color: "white" }}
+            >
               Phone Number: (210) 807-2603
             </h1>
           </div>
