@@ -1,5 +1,6 @@
 import Head from "next/head";
 import TruckImage from "../components/TruckImage";
+import ThankYou from "../components/ThankYou";
 
 export default function Home() {
   return (
@@ -102,11 +103,14 @@ export default function Home() {
           </div>
         </div>
       </header>
-
-      <main role="main">
+      <body style={{ height: "100vh" }}>
         <section
           class="jumbotron text-center"
-          style={{ paddingTop: "20px", backgroundColor: "#2B2B2B" }}
+          style={{
+            paddingTop: "20px",
+            backgroundColor: "#2B2B2B",
+            height: "100%",
+          }}
         >
           <div class="container">
             <h1 padding style={{ fontSize: "40px", color: "white" }}>
@@ -137,9 +141,10 @@ export default function Home() {
             >
               Phone Number: (210) 807-2603
             </h1>
+            <ThankYou></ThankYou>
           </div>
         </section>
-      </main>
+      </body>
     </div>
   );
 }
