@@ -4,7 +4,7 @@ export default function ThankYou() {
       src="/thankyou.png"
       alt="Thank You!"
       style={{
-        maxWidth: "75%",
+        maxWidth: "40%",
         width: "auto",
         height: "auto",
         border: "5px solid black",

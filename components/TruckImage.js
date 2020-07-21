@@ -4,10 +4,9 @@ export default function TruckImage() {
       src="/truck.jpg"
       alt="J&S Towing and Recovery"
       style={{
-        maxWidth: "75%",
+        maxWidth: "45%",
         width: "auto",
         height: "auto",
-        padding: "20px",
       }}
     />
   );

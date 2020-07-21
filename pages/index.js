@@ -103,7 +103,7 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <body style={{ height: "100vh" }}>
+      <body style={{ height: "120vh" }}>
         <section
           class="jumbotron text-center"
           style={{
@@ -113,11 +113,20 @@ export default function Home() {
           }}
         >
           <div class="container">
-            <h1 padding style={{ fontSize: "40px", color: "white" }}>
+            <h1
+              padding
+              style={{
+                fontSize: "40px",
+                color: "white",
+                paddingBottom: "10px",
+              }}
+            >
               J&S Towing and Recovery San Marcos, TX
             </h1>
             <TruckImage></TruckImage>
-            <h1 style={{ fontSize: "25px", color: "white" }}>
+            <h1
+              style={{ fontSize: "25px", color: "white", paddingTop: "15px" }}
+            >
               Towing Service and Recovery company located in the San Marcos and
               surrounding area. We specialize in vehicle lock outs, jump starts,
               winching, and towing on medium duty as well.
